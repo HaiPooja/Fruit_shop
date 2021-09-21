@@ -50,23 +50,17 @@ def search_fruit():
 			print("Not Found!!!!")
 def display_fruit_details():
 	print(fruit)
-	#for fruit_id,f in fruit.item():
+	
 	
 def add_to_cart():
 	print(fruit)
-	#for fruit_id,f in fruit.item():
 	
 	fruit_id=int(input("Enter the fruit id to add the item to cart:"))
 	if fruit_id in fruit.keys():
 		cart.append(fruit[fruit_id])
 def display_cart():
 	print(cart)
-	#for fruit in cart:
-	#	print("\n")
-	#	for key,value in fruit.item():
-	#		print("\t{}:\t{}".format(key,value))
-
-
+	
 
 
 def change_fruit_details():
